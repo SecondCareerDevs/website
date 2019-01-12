@@ -1,0 +1,27 @@
+{
+  "number": 10,
+  "slug": "michael-chan",
+  "title": "Michael Chan - Home Grown Accountant to Software Engineer",
+  "description": "In this episode of Second Career Devs, I chat with Michael Chan, a well known conference speaker and web developer in the React community. He shares his story of growing up working in the family business and how that took him from accounting, to music, to web development. He shares some nuggets of wisdom and a great new conference talk idea along the way.",
+  "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/466340982&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe>",
+  "date": "2018-06-30",
+  "categories": ["accounting", "finance", "music"],
+  "guest": {
+    "name": "Michael Chan",
+    "twitter": "chantastic"
+  },
+  "links": [
+    {
+      "text": "Michael's talk at React Rally 2017",
+      "url": "https://www.youtube.com/watch?v=T9-Mb_axNgA"
+    },
+    {
+      "text": "War of Art by Steven Pressfield",
+      "url": "https://www.amazon.com/War-Art-Through-Creative-Battles/dp/1936891026/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1530546676&sr=8-2"
+    },
+    {
+      "text": "Michael's Talk on React Components as Shapes",
+      "url": "https://www.youtube.com/watch?v=YaZg8wg39QQ"
+    }
+  ]
+}

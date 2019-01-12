@@ -1,0 +1,43 @@
+{
+  "number": 3,
+  "slug": "claire-niederberger",
+  "title": "Claire Niederberger - The Environmental Designer",
+  "description": "In this episode of Second Career Devs, I chat with Claire Niederberger, an environmental designer turned \"deseloper\". She shares her story about building exhibits in New York City and how that impacts her work today.",
+  "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/372946913&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe>",
+  "date": "2017-12-21",
+  "categories": ["environments", "designer"],
+  "guest": {
+    "name": "Claire Niederberger",
+    "twitter": "clairenied"
+  },
+  "links": [
+    {
+      "text": "RISD - Rhode Island School of Design",
+      "url": "http: //www.risd.edu"
+    },
+    {
+      "text": "Fullstack Academy",
+      "url": "https://www.fullstackacademy.com"
+    },
+    {
+      "text": "The art of Sol Lewitt",
+      "url": "https://www.diaart.org/program/exhibitions-projects/sol-lewitt-collection-display"
+    },
+    {
+      "text": "Margin",
+      "url": "https://github.com/belvedere-trading/Margin"
+    },
+    {
+      "text": "Blog post about Margin",
+      "url": "http: //www.belvederetrading.com/blog/2017/10/3/margin-our-new-design-standards"
+    },
+    {
+      "text": "Well Technically Podcast",
+      "url": "mailto:welltechnicallypodcast@gmail.com"
+    },
+    {
+      "text": "Millenials Are Screwed",
+      "url": "http: //highline.huffingtonpost.com/articles/en/poor-millennials/"
+    }
+  ]
+}

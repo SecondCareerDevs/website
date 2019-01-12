@@ -1,0 +1,23 @@
+{
+  "number": 2,
+  "slug": "sonia-gupta",
+  "title": "Sonia Gupta - The Louisiana Lawyer",
+  "description": "In this episode of Second Career Devs, I sit down with Sonia Gupta, a former lawyer turned Software Engineer. She shares her story about becoming an attorney, practicing law in New Orleans after Hurricane Katrina, and what motivated her to make a career change.",
+  "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/364460948&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe>",
+  "date": "2017-12-03",
+  "categories": ["lawyer"],
+  "guest": {
+    "name": "Sonia Gupta",
+    "twitter": "soniagupta504"
+  },
+  "links": [
+    {
+      "text": "Turing School",
+      "url": "https://www.turing.io/"
+    },
+    {
+      "text": "Ibotta",
+      "url": "https://ibotta.com"
+    }
+  ]
+}

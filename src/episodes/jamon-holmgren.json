@@ -1,0 +1,41 @@
+{
+  "number": 11,
+  "slug": "jamon-holmgren",
+  "title": "Jamon Holmgren - Construction Worker & Home Designer Turned Software Engineer and Business Owner",
+  "description": "In this episode of Second Career Devs, I chat with Jamon Holmgren, CTO and co-owner of Infinite Red, a consultancy specializing in React and React Native Apps. Jamon shares his story of going from construction worker and home designer to software engineer and business owner. Hear about how he got the opportunity to design a home for the general manager of the Portland Trailblazers, and how he started landing web development gigs before he had ever even made a website.",
+  "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/539004612&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe>",
+  "date": "2018-12-03",
+  "categories": ["construction", "home design"],
+  "guest": {
+    "name": "Jamon Holmgren",
+    "twitter": "jamonholmgren"
+  },
+  "links": [
+    {
+      "text": "Building Infinite Red Podcast",
+      "url": "https://building.infinite.red/"
+    },
+    {
+      "text": "House Jamon Designed for General Manager of the Portland Trailblazers",
+      "url": "https://twitter.com/jamonholmgren/status/1048104464874258433"
+    },
+    {
+      "text": "Gant and Jason Build a Facial Recognition App",
+      "url": "https://www.youtube.com/watch?v=PNEDvkKcXf0&feature=youtu.be"
+    },
+    {
+      "text": "ProMotion Open Source Library",
+      "url": "https://github.com/infinitered/ProMotion"
+    }
+  ],
+  "sponsor": {
+    "img": {
+      "src": "/sponsors/IR_ad.jpg",
+      "alt": "Infinite Red Logo"
+    },
+    "description": "Infinite Red is a US-based consultancy specializing in React, React Native, mobile applications and web design.",
+    "name": "Infinite Red",
+    "link": "https://infinite.red"
+  },
+  "transcriptFilename": "/transcripts/011_Jamon_Holmgren.pdf"
+}

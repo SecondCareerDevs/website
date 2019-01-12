@@ -1,0 +1,45 @@
+{
+  "number": 12,
+  "slug": "mark-noonan",
+  "title": "Mark Noonan - Ethnomusicologist and Job Coach to Web Developer",
+  "description": "In this episode of Second Career Devs, I chat with Mark Noonan, a web developer at Content Thread. Mark shares his story of studying ethnomusicology, working for a touring folk singer, and being a job coach for a non profit helping people with a variety of disabilities. He shares his struggles and victories in making the career change. Stick around after the outro for some interesting added content.",
+  "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/553602801&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe>",
+  "date": "2019-01-02",
+  "categories": ["music", "npo", "consultation", "advocacy"],
+  "guest": {
+    "name": "Mark Noonan",
+    "twitter": "marktnoonan"
+  },
+  "links": [
+    {
+      "text": "Content Thread",
+      "url": "https://www.contentthread.com/"
+    },
+    {
+      "text": "Donate to People Making Progress",
+      "url": "https://peoplemakingprogressinc.org/donate/"
+    },
+    {
+      "text": "Cork Gamelan Ensemble",
+      "url": "https://www.youtube.com/watch?v=-uNHnY7vHhE"
+    },
+    {
+      "text": "Code For America",
+      "url": "https://www.codeforamerica.org/"
+    },
+    {
+      "text": "Paratransit Pal Article",
+      "url": "https://medium.com/paratransit-pal/paratransit-pal-won-40-000-at-at-ts-atlanta-civic-coding-challenge-and-gave-it-all-to-charity-30bba157d92d"
+    }
+  ],
+  "sponsor": {
+    "img": {
+      "src": "/sponsors/IR_ad.jpg",
+      "alt": "Infinite Red Logo"
+    },
+    "description": "Infinite Red is a US-based consultancy specializing in React, React Native, mobile applications and web design.",
+    "name": "Infinite Red",
+    "link": "https://infinite.red"
+  },
+  "transcriptFilename": "/transcripts/012_Mark_Noonan.pdf"
+}
