@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { css } from '@emotion/core'
+import { COLORS } from '../constants'
+import { bs } from '../utils'
+
+const IMAGE_SIZE = '125px'
 
 class GuestCard extends Component {
   constructor(props) {
@@ -50,17 +55,46 @@ class GuestCard extends Component {
     const { imgUrl } = this.state
 
     return (
-      <div className="guest_card">
-        <div className="guest_card-img-wrap">
+      <div
+        css={css`
+          display: inline-block;
+          text-align: center;
+          padding: ${bs(0.5)};
+          margin-right: ${bs(2)};
+          margin-bottom: ${bs(2)};
+        `}
+      >
+        <div
+          css={css`
+            display: inline-block;
+            margin-bottom: ${bs()};
+          `}
+        >
           {imgUrl ? (
-            <img className="guest_card-img" src={imgUrl} alt={name} />
+            <img
+              css={css`
+                display: block;
+                width: ${IMAGE_SIZE};
+                height: auto;
+                border-radius: 50%;
+              `}
+              src={imgUrl}
+              alt={name}
+            />
           ) : (
-            <div className="guest_card-fake-img" />
+            <div
+              css={css`
+                width: ${IMAGE_SIZE};
+                height: ${IMAGE_SIZE};
+                background-color: ${COLORS.rain};
+                border-radius: 50%;
+              `}
+            />
           )}
         </div>
-        <div className="guest_card-name">{name}</div>
+        <div>{name}</div>
         {twitter && (
-          <div className="guest_card-twitter">
+          <div>
             <a href={`https://twitter.com/${twitter}`}>@{twitter}</a>
           </div>
         )}

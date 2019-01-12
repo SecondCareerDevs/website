@@ -1,4 +1,5 @@
 import React from 'react'
+import { css } from '@emotion/core'
 import { graphql, StaticQuery } from 'gatsby'
 import Container from './Container'
 import GuestCard from './GuestCard'
@@ -29,7 +30,12 @@ const PastGuests = () => (
           <div className="past_guests">
             <h3>Past Guests</h3>
 
-            <div className="guest_cards">
+            <div
+              css={css`
+                display: flex;
+                flex-wrap: wrap;
+              `}
+            >
               {guests.map(guest => (
                 <GuestCard key={guest.name} guest={guest} />
               ))}
