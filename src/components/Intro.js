@@ -14,7 +14,7 @@ const Intro = () => (
         been learned in any other way.
       </p>
 
-      <p>Thanks for listening. - Kyle</p>
+      <p css={{ marginBottom: 0 }}>Thanks for listening. - Kyle</p>
     </Container>
   </section>
 )

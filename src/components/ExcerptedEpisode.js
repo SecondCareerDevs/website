@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { BREAKPOINTS } from '../constants'
-import { bs, formatEpisodeNumber, mq } from '../utils'
+import { bs, formatEpisodeNumber } from '../utils'
 
 const ExcerptedEpisode = ({ episode }) => {
   const {
@@ -15,15 +14,7 @@ const ExcerptedEpisode = ({ episode }) => {
   } = episode
 
   return (
-    <div
-      css={{
-        marginBottom: bs(6),
-
-        [mq(BREAKPOINTS.bravo)]: {
-          marginBottom: bs(8),
-        },
-      }}
-    >
+    <div>
       <h3>
         <Link to={`/episodes/${slug}`}>
           {formatEpisodeNumber(number)} - {title}

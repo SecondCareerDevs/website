@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import Container from '../components/Container'
 import Content from '../components/Content'
 import ExcerptedEpisode from '../components/ExcerptedEpisode'
+import { BREAKPOINTS } from '../constants'
+import { bs, mq } from '../utils'
 
 const Episodes = ({ data }) => {
   const episodes = data.allEpisodesJson.edges.map(edge => edge.node)
@@ -16,7 +18,18 @@ const Episodes = ({ data }) => {
       <section>
         <Container>
           {episodes.map(episode => (
-            <ExcerptedEpisode key={episode.slug} episode={episode} />
+            <div
+              key={episode.slug}
+              css={{
+                marginBottom: bs(6),
+
+                [mq(BREAKPOINTS.bravo)]: {
+                  marginBottom: bs(8),
+                },
+              }}
+            >
+              <ExcerptedEpisode episode={episode} />
+            </div>
           ))}
         </Container>
       </section>

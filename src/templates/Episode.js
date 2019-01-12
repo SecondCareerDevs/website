@@ -1,9 +1,10 @@
 import React from 'react'
 import { graphql, withPrefix } from 'gatsby'
 import Container from '../components/Container'
+import Content from '../components/Content'
 import GuestCard from '../components/GuestCard'
 import Sponsor from '../components/Sponsor'
-import SEO from '../components/seo'
+import { bs, formatEpisodeNumber } from '../utils'
 
 const Episode = ({ data }) => {
   const {
@@ -20,59 +21,65 @@ const Episode = ({ data }) => {
   } = data.allEpisodesJson.edges[0].node
 
   return (
-    <div>
-      <Container>
-        <SEO
-          title={title}
-          keywords={[guest.name, 'Episodes', 'Second Career Devs']}
-        />
-        <h2>
-          {number} - {title}
-        </h2>
-        <div>{date}</div>
-        <div>{description}</div>
-        <div dangerouslySetInnerHTML={{ __html: embed }} />
-
-        {transcriptFilename && (
-          <div>
-            <a href={withPrefix(transcriptFilename)} download>
-              Download a Copy of the Transcript
-            </a>
+    <Content
+      heading={`${formatEpisodeNumber(number)} - ${title}`}
+      title={title}
+      keywords={[guest.name, 'Episodes', 'Second Career Devs']}
+    >
+      <section>
+        <Container>
+          <div css={{ marginBottom: bs() }}>
+            <strong>Published</strong>: {date}
           </div>
-        )}
-
-        {sponsor && <Sponsor sponsor={sponsor} />}
-
-        <h3>Guest</h3>
-        <div>
-          <GuestCard key={guest.name} guest={guest} />
-        </div>
-
-        {categories ? (
-          <div>
-            <h3>Categories</h3>
-            <ul>
-              {categories.map(category => (
-                <div key={category}>{category}</div>
-              ))}
-            </ul>
+          <div css={{ marginBottom: bs(2), maxWidth: '45em' }}>
+            {description}
           </div>
-        ) : null}
+          <div
+            css={{ marginBottom: bs(2) }}
+            dangerouslySetInnerHTML={{ __html: embed }}
+          />
 
-        {links ? (
-          <div>
-            <h3>Links</h3>
-            <ul>
-              {links.map(link => (
-                <li key={link.url}>
-                  <a href={link.url}>{link.text}</a>
-                </li>
-              ))}
-            </ul>
+          {transcriptFilename && (
+            <div css={{ marginBottom: bs(2) }}>
+              <a href={withPrefix(transcriptFilename)} download>
+                Download a Copy of the Transcript
+              </a>
+            </div>
+          )}
+
+          {sponsor && <Sponsor sponsor={sponsor} />}
+
+          <h3>Guest</h3>
+          <div css={{ marginBottom: bs(2) }}>
+            <GuestCard key={guest.name} guest={guest} />
           </div>
-        ) : null}
-      </Container>
-    </div>
+
+          {categories ? (
+            <div css={{ marginBottom: bs(2) }}>
+              <h3 css={{ marginBottom: 0 }}>Categories</h3>
+              <ul>
+                {categories.map(category => (
+                  <li key={category}>{category}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+
+          {links ? (
+            <div css={{ marginBottom: bs(2) }}>
+              <h3 css={{ marginBottom: 0 }}>Links</h3>
+              <ul>
+                {links.map(link => (
+                  <li key={link.url}>
+                    <a href={link.url}>{link.text}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+        </Container>
+      </section>
+    </Content>
   )
 }
 
