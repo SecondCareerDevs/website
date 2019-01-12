@@ -7,6 +7,13 @@ module.exports = {
     siteUrl: 'https://secondcareerdevs.com',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-110577663-1',
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-sitemap',
     {
