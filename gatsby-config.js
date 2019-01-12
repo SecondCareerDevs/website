@@ -4,9 +4,11 @@ module.exports = {
     description:
       'Second Career Devs is a podcast focused on telling the stories of people who changed careers to become web developers and software engineers.',
     author: 'Kyle Shevlin',
+    siteUrl: 'https://secondcareerdevs.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
