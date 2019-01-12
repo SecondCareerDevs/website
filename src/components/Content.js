@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { css } from '@emotion/core'
 import Container from '../components/Container'
@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 import { bs } from '../utils'
 
 const Content = ({ children, heading, keywords, title }) => (
-  <Fragment>
+  <div css={{ minHeight: '65vh' }}>
     <SEO title={title} keywords={keywords} />
 
     {heading && (
@@ -22,7 +22,7 @@ const Content = ({ children, heading, keywords, title }) => (
     )}
 
     {children}
-  </Fragment>
+  </div>
 )
 
 Content.propTypes = {
