@@ -46,6 +46,7 @@ export default EpisodeList
 export const query = graphql`
   query EpisodeListQuery($limit: Int!, $skip: Int!) {
     allEpisodesJson(
+      filter: { published: { eq: true } }
       limit: $limit
       skip: $skip
       sort: { fields: [number], order: DESC }

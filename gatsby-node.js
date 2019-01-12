@@ -13,7 +13,10 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const query = graphql(`
     {
-      allEpisodesJson(sort: { fields: [number], order: DESC }) {
+      allEpisodesJson(
+        filter: { published: { eq: true } }
+        sort: { fields: [number], order: DESC }
+      ) {
         edges {
           node {
             slug

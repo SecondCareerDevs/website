@@ -1,6 +1,7 @@
 {
   "number": 4,
   "slug": "bobby-johnson",
+  "published": true,
   "title": "Bobby Johnson - from Tyson Farms to Auth0",
   "description": "In this episode of Second Career Devs, I chat with Bobby Johnson, a developer advocate for Auth0 Extend. He shares with us how he went from Tyson Farms to a long career in software development.",
   "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/382556483&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe>",

@@ -87,7 +87,7 @@ export default Episode
 
 export const query = graphql`
   query EpisodeQuery($slug: String!) {
-    allEpisodesJson(filter: { slug: { eq: $slug } }) {
+    allEpisodesJson(filter: { published: { eq: true }, slug: { eq: $slug } }) {
       edges {
         node {
           slug
@@ -95,7 +95,7 @@ export const query = graphql`
           description
           number
           embed
-          date
+          date(formatString: "MMMM DD, YYYY")
           categories
           guest {
             name
