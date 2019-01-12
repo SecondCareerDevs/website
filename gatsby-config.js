@@ -33,6 +33,7 @@ module.exports = {
         path: `${__dirname}/src/episodes`,
       },
     },
+    'gatsby-plugin-emotion',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
