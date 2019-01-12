@@ -1,27 +1,26 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby'
 import Container from '../components/Container'
+import Content from '../components/Content'
 import ExcerptedEpisode from '../components/ExcerptedEpisode'
-import SEO from '../components/seo'
 
 const Episodes = ({ data }) => {
   const episodes = data.allEpisodesJson.edges.map(edge => edge.node)
 
   return (
-    <Fragment>
-      <SEO
-        title="Episodes"
-        keywords={['Second Career Devs', 'Career Changers']}
-      />
-      <Container>
-        <h2>Episodes</h2>
-        <div>
+    <Content
+      heading="Episodes"
+      title="Episodes"
+      keywords={['Episodes', 'Second Career Devs', 'Career Changers']}
+    >
+      <section>
+        <Container>
           {episodes.map(episode => (
             <ExcerptedEpisode key={episode.slug} episode={episode} />
           ))}
-        </div>
-      </Container>
-    </Fragment>
+        </Container>
+      </section>
+    </Content>
   )
 }
 

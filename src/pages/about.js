@@ -1,16 +1,21 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Container from '../components/Container'
+import Content from '../components/Content'
 import GuestCard from '../components/GuestCard'
 import PastGuests from '../components/PastGuests'
-import SEO from '../components/seo'
 
 const About = () => (
-  <Fragment>
-    <SEO title="About" keywords={['Second Career Devs', 'Career Changers']} />
-    <Container>
-      <h2>About</h2>
-    </Container>
-
+  <Content
+    title="About"
+    keywords={[
+      'About',
+      'Past Guests',
+      'Host',
+      'Second Career Devs',
+      'Career Changers',
+    ]}
+    heading="About"
+  >
     <section>
       <Container>
         <p>
@@ -29,7 +34,6 @@ const About = () => (
       </Container>
     </section>
 
-    {/* Past Guests Go Here */}
     <PastGuests />
 
     <section>
@@ -77,7 +81,7 @@ const About = () => (
         />
       </Container>
     </section>
-  </Fragment>
+  </Content>
 )
 
 export default About

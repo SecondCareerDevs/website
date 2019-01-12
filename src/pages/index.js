@@ -1,14 +1,13 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import Content from '../components/Content'
 import Banner from '../components/Banner'
 import Intro from '../components/Intro'
-import SEO from '../components/seo'
 
 const IndexPage = () => (
-  <Fragment>
-    <SEO title="Home" keywords={['Second Career Devs', 'Career Changers']} />
+  <Content title="Home" keywords={['Second Career Devs', 'Career Changers']}>
     <Banner />
     <Intro />
-  </Fragment>
+  </Content>
 )
 
 export default IndexPage
