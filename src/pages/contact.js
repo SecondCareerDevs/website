@@ -23,7 +23,7 @@ const Contact = () => (
           If you think you might make a great guest on the show and are more
           comfortable with making pull requests than writing emails, you can
           fork the{' '}
-          <a href="https://github.com/kyleshevlin/second-career-devs-guest-list">
+          <a href="https://github.com/SecondCareerDevs/guest-list">
             Second Career Devs Guest List repo
           </a>{' '}
           and add your name to the list. Be sure to leave some information in
