@@ -3,10 +3,12 @@ import { graphql } from 'gatsby'
 import Container from '../components/Container'
 import Content from '../components/Content'
 import ExcerptedEpisode from '../components/ExcerptedEpisode'
+import Pagination from '../components/Pagination'
 import { BREAKPOINTS } from '../constants'
 import { bs, mq } from '../utils'
 
-const Episodes = ({ data }) => {
+const EpisodeList = ({ data, ...props }) => {
+  const { index, totalPages } = props.pageContext
   const episodes = data.allEpisodesJson.edges.map(edge => edge.node)
 
   return (
@@ -31,17 +33,23 @@ const Episodes = ({ data }) => {
               <ExcerptedEpisode episode={episode} />
             </div>
           ))}
+
+          <Pagination {...{ index, totalPages }} />
         </Container>
       </section>
     </Content>
   )
 }
 
-export default Episodes
+export default EpisodeList
 
 export const query = graphql`
-  query AllEpisodesQuery {
-    allEpisodesJson(sort: { fields: [number], order: DESC }) {
+  query EpisodeListQuery($limit: Int!, $skip: Int!) {
+    allEpisodesJson(
+      limit: $limit
+      skip: $skip
+      sort: { fields: [number], order: DESC }
+    ) {
       edges {
         node {
           number
