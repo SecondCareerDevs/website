@@ -1,15 +1,20 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import Container from './Container'
 import Header from './header'
 import Footer from './Footer'
+import FontFaces from '../styles/Tags'
+import Tags from '../styles/Tags'
+import Typography from '../styles/Typography'
+import '../styles/normalize.css'
 
 const Layout = ({ children }) => (
   <Fragment>
+    <FontFaces />
+    <Tags />
+    <Typography />
+
     <Header />
-    <div>
-      <Container>{children}</Container>
-    </div>
+    <div>{children}</div>
     <Footer />
   </Fragment>
 )

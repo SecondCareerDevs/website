@@ -1,31 +1,44 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link, StaticQuery } from 'gatsby'
+import { css } from '@emotion/core'
+import { Link } from 'gatsby'
 import Container from './Container'
 import Nav from './Nav'
+import { BREAKPOINTS, COLORS } from '../constants'
+import { bs, mq } from '../utils'
 
 const Header = () => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
+  <div
+    css={css`
+      background-color: ${COLORS.onyx};
+      color: ${COLORS.white};
+      padding: ${bs()};
     `}
-    render={data => (
-      <div>
-        <Container>
-          <h1>
-            <Link to="/">{data.site.siteMetadata.title}</Link>
-          </h1>
-          <Nav />
-        </Container>
-      </div>
-    )}
-  />
+  >
+    <Container>
+      <h1
+        css={css`
+          font-size: 1.5em;
+          font-weight: normal;
+          margin-bottom: 0;
+
+          ${mq(BREAKPOINTS.alpha)} {
+            font-size: 2em;
+          }
+        `}
+      >
+        <Link
+          css={css`
+            text-decoration: none;
+          `}
+          to="/"
+        >
+          secondCareerDevs
+        </Link>
+      </h1>
+      <Nav />
+    </Container>
+  </div>
 )
 
 Header.propTypes = {

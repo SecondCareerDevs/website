@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { graphql } from 'gatsby'
+import Container from '../components/Container'
 import ExcerptedEpisode from '../components/ExcerptedEpisode'
 import SEO from '../components/seo'
 
@@ -12,12 +13,14 @@ const Episodes = ({ data }) => {
         title="Episodes"
         keywords={['Second Career Devs', 'Career Changers']}
       />
-      <h1>Episodes</h1>
-      <div>
-        {episodes.map(episode => (
-          <ExcerptedEpisode key={episode.slug} episode={episode} />
-        ))}
-      </div>
+      <Container>
+        <h2>Episodes</h2>
+        <div>
+          {episodes.map(episode => (
+            <ExcerptedEpisode key={episode.slug} episode={episode} />
+          ))}
+        </div>
+      </Container>
     </Fragment>
   )
 }
