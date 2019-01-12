@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { BREAKPOINTS } from '../constants'
+import { bs, formatEpisodeNumber, mq } from '../utils'
 
 const ExcerptedEpisode = ({ episode }) => {
   const {
@@ -13,19 +15,31 @@ const ExcerptedEpisode = ({ episode }) => {
   } = episode
 
   return (
-    <div>
+    <div
+      css={{
+        marginBottom: bs(6),
+
+        [mq(BREAKPOINTS.bravo)]: {
+          marginBottom: bs(8),
+        },
+      }}
+    >
       <h3>
         <Link to={`/episodes/${slug}`}>
-          {number} - {title}
+          {formatEpisodeNumber(number)} - {title}
         </Link>
       </h3>
-      <div>{date}</div>
-      <div>{description}</div>
-      <div dangerouslySetInnerHTML={{ __html: embed }} />
+      <div css={{ marginBottom: bs() }}>
+        <strong>Published</strong>: {date}
+      </div>
+      <div css={{ marginBottom: bs(2), maxWidth: '45em' }}>{description}</div>
+      <div
+        css={{ marginBottom: bs(2) }}
+        dangerouslySetInnerHTML={{ __html: embed }}
+      />
 
-      <h3>Guest</h3>
       <div>
-        {name}
+        <strong>Guest</strong>: {name}
         {` - `}
         <a href={`https://twitter.com/${twitter}`}>@{twitter}</a>
       </div>

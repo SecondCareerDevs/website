@@ -33,7 +33,7 @@ export const query = graphql`
         node {
           number
           title
-          date
+          date(formatString: "MMMM DD, YYYY")
           description
           embed
           guest {
