@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './Container'
 
 const Intro = () => (
-  <section>
+  <section css={{ fontSize: '1.25em' }}>
     <Container>
       <p>
         Each episode of the Second Career Devs podcast focuses on a guest who
