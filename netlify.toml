@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "https://secondcareerdevs.netlify.com"
+  from = "https://secondcareerdevs.netlify.com/*"
   to = "https://secondcareerdevs.com/:splat"
   force = true
