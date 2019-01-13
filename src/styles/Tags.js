@@ -23,6 +23,7 @@ const Tags = () => (
 
       a {
         color: ${COLORS.teal};
+        transition: color 0.3s ease;
 
         &:hover {
           color: ${COLORS.blue};

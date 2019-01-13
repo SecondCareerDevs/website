@@ -29,7 +29,6 @@ const Nav = () => (
           color: ${COLORS.orange};
           padding: ${bs(0.5)};
           text-decoration: none;
-          transition: color 0.3s ease;
 
           &:hover {
             color: ${COLORS.red};
