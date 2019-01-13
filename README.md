@@ -2,7 +2,7 @@
 
 New website for SCD on Gatsby
 
-## Install
+## Install - Local Development
 
 In the terminal:
 
