@@ -30,7 +30,7 @@ const LatestEpisode = () => (
     render={data => (
       <section
         css={css`
-          background-color: ${COLORS.cloud};
+          background-color: ${COLORS.vapor};
 
           a {
             color: ${COLORS.red};

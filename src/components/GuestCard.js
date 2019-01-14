@@ -86,7 +86,7 @@ class GuestCard extends Component {
               css={css`
                 width: ${IMAGE_SIZE};
                 height: ${IMAGE_SIZE};
-                background-color: ${COLORS.rain};
+                background-color: ${COLORS.cloud};
                 border-radius: 50%;
               `}
             />
