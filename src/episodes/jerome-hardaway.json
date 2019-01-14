@@ -1,0 +1,38 @@
+{
+  "number": 13,
+  "slug": "jerome-hardaway",
+  "published": false,
+  "title": "Jerome Hardaway - Air Force to the Web's Captain America",
+  "description": "In this episode of Second Career Devs, I chat with Jerome Hardaway",
+  "embed": "",
+  "date": "2019-01-14",
+  "categories": ["military", "non-profit"],
+  "guest": {
+    "name": "Jerome Hardaway",
+    "twitter": "JeromeHardaway"
+  },
+  "links": [
+    {
+      "text": "Vets Who Code",
+      "url": "https://vetswhocode.io/"
+    },
+    {
+      "text": "General Assembly",
+      "url": "https://generalassemb.ly/"
+    },
+    {
+      "text": "Discipline Equals Freedom by Jocko Willink",
+      "url": "https://amzn.to/2SRsw77"
+    }
+  ],
+  "sponsor": {
+    "img": {
+      "src": "/sponsors/IR_ad.jpg",
+      "alt": "Infinite Red Logo"
+    },
+    "description": "Infinite Red is a US-based consultancy specializing in React, React Native, mobile applications and web design.",
+    "name": "Infinite Red",
+    "link": "https://infinite.red"
+  },
+  "transcriptFilename": null
+}
