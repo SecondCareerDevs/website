@@ -9,7 +9,11 @@ const LatestEpisode = () => (
   <StaticQuery
     query={graphql`
       {
-        allEpisodesJson(limit: 1, sort: { fields: [number], order: DESC }) {
+        allEpisodesJson(
+          filter: { published: { eq: true } }
+          limit: 1
+          sort: { fields: [number], order: DESC }
+        ) {
           edges {
             node {
               number
