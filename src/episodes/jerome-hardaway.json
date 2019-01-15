@@ -1,11 +1,11 @@
 {
   "number": 13,
   "slug": "jerome-hardaway",
-  "published": false,
+  "published": true,
   "title": "Jerome Hardaway - Air Force to the Web's Captain America",
-  "description": "In this episode of Second Career Devs, I chat with Jerome Hardaway",
-  "embed": "",
-  "date": "2019-01-14",
+  "description": "In this episode of Second Career Devs, I chat with Jerome Hardaway, a former Air Force officer who became a software engineer and founder of the non-profit Vets Who Code. Jerome shares with us his journey of entering the military, the challenges faced coming back home, and how he overcame the haters to start a successful program teaching others to be developers.",
+  "embed": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/559598358&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe>",
+  "date": "2019-01-15",
   "categories": ["military", "non-profit"],
   "guest": {
     "name": "Jerome Hardaway",
@@ -34,5 +34,5 @@
     "name": "Infinite Red",
     "link": "https://infinite.red"
   },
-  "transcriptFilename": null
+  "transcriptFilename": "/transcripts/013_Jerome_Hardaway.pdf"
 }
