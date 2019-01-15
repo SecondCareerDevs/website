@@ -16,8 +16,9 @@ This is the source code for the Second Career Devs website.
 4. Install the node modules with `npm install`
 5. Once the modules have finished installing, you can start the dev server with `npm run start`.
 6. When the server has started, you will see instructions in the terminal instructing you what URL (most likely `localhost:8000`) you can use to view the project as well as the Graphiql playground (`localhost:8000/___graphql`).
-7. When you've made your changes, commit them to a feature branch to your fork and make a pull request on this repo.
-8. After review, revisions and approval, 💥 you're done!
+7. When you've made your changes, commit them to a feature branch and push the branch to your fork. After doing so, you should have the ability to make a pull request to this repo.
+8. Open the pull request. Be sure to write a good description of the work you've done and why.
+9. After review, revisions and approval, 💥 you're done!
 
 ## Contributors
 
