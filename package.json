@@ -34,10 +34,13 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^10.0.6",
+    "all-contributors-cli": "^5.8.0",
     "babel-preset-gatsby": "^0.1.6",
     "prettier": "^1.15.2"
   },
