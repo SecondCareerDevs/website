@@ -21,9 +21,14 @@ It is no ready to start a local development environment:
 ```shell
 npm start
 ```
+
 ## Contributors
 
-See the list of contributors [here](https://github.com/SecondCareerDevs/website/contributors).
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/4333144?v=4" width="100px;" alt="Kyle Shevlin"/><br /><sub><b>Kyle Shevlin</b></sub>](https://kyleshevlin.com)<br />[💻](https://github.com/SecondCareerDevs/website/commits?author=kyleshevlin "Code") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
