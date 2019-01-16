@@ -17,7 +17,9 @@ export const onServiceWorkerUpdateFound = () => {
     `Second Career Devs has been updated. Reload to display the latest version?`
   )
 
-  if (answer) {
+  console.log(answer)
+
+  if (answer === true) {
     window.location.reload()
   }
 }
