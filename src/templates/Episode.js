@@ -98,6 +98,7 @@ export const query = graphql`
           date(formatString: "MMMM DD, YYYY")
           categories
           guest {
+            imgUrl
             name
             twitter
           }

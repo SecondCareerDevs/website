@@ -10,6 +10,7 @@ const query = graphql`
       edges {
         node {
           guest {
+            imgUrl
             name
             twitter
           }

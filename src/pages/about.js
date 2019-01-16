@@ -75,8 +75,7 @@ const About = () => (
           guest={{
             name: 'Kyle Shevlin',
             twitter: 'kyleshevlin',
-            imgUrl:
-              'https://pbs.twimg.com/profile_images/786039150667411456/t_0mWTZk.jpg',
+            imgUrl: '/kyleShevlin.jpg',
           }}
         />
       </Container>
