@@ -11,15 +11,3 @@ import Layout from './src/components/layout'
 export const wrapPageElement = ({ element, props }) => (
   <Layout {...props}>{element}</Layout>
 )
-
-export const onServiceWorkerUpdateFound = () => {
-  const answer = window.confirm(
-    `Second Career Devs has been updated. Reload to display the latest version?`
-  )
-
-  console.log(answer)
-
-  if (answer === true) {
-    window.location.reload()
-  }
-}
