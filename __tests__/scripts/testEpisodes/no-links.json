@@ -1,0 +1,8 @@
+{
+  "description": "This is the description",
+  "sponsor": {
+    "description": "Test Sponsor description",
+    "name": "Test Sponsor Name",
+    "link": "https://testsponsor.com"
+  }
+}

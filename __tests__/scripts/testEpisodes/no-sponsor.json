@@ -1,0 +1,13 @@
+{
+  "description": "This is the description",
+  "links": [
+    {
+      "text": "Link 1",
+      "url": "https://link1.com"
+    },
+    {
+      "text": "Link 2",
+      "url": "https://link2.com"
+    }
+  ]
+}
