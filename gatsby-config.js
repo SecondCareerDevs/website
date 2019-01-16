@@ -8,6 +8,7 @@ module.exports = {
   },
   mapping: {
     'EpisodesJson.sponsor': 'SponsorsJson',
+    'EpisodesJson.guest': 'GuestsJson.name',
   },
   pathPrefix: '/',
   plugins: [
@@ -35,6 +36,13 @@ module.exports = {
       options: {
         name: 'episodes',
         path: `${__dirname}/src/episodes`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'guests',
+        path: `${__dirname}/src/guests`,
       },
     },
     {
