@@ -25,14 +25,6 @@
       "url": "https://amzn.to/2SRsw77"
     }
   ],
-  "sponsor": {
-    "img": {
-      "src": "/sponsors/IR_ad.jpg",
-      "alt": "Infinite Red Logo"
-    },
-    "description": "Infinite Red is a US-based consultancy specializing in React, React Native, mobile applications and web design.",
-    "name": "Infinite Red",
-    "link": "https://infinite.red"
-  },
+  "sponsor": "INFINITE_RED",
   "transcriptFilename": "/transcripts/013_Jerome_Hardaway.pdf"
 }

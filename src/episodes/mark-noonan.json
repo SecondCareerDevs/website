@@ -33,14 +33,6 @@
       "url": "https://medium.com/paratransit-pal/paratransit-pal-won-40-000-at-at-ts-atlanta-civic-coding-challenge-and-gave-it-all-to-charity-30bba157d92d"
     }
   ],
-  "sponsor": {
-    "img": {
-      "src": "/sponsors/IR_ad.jpg",
-      "alt": "Infinite Red Logo"
-    },
-    "description": "Infinite Red is a US-based consultancy specializing in React, React Native, mobile applications and web design.",
-    "name": "Infinite Red",
-    "link": "https://infinite.red"
-  },
+  "sponsor": "INFINITE_RED",
   "transcriptFilename": "/transcripts/012_Mark_Noonan.pdf"
 }

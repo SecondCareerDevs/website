@@ -6,6 +6,9 @@ module.exports = {
     author: 'Kyle Shevlin',
     siteUrl: 'https://secondcareerdevs.com',
   },
+  mapping: {
+    'EpisodesJson.sponsor': 'SponsorsJson',
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -31,6 +34,13 @@ module.exports = {
       options: {
         name: 'episodes',
         path: `${__dirname}/src/episodes`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'sponsors',
+        path: `${__dirname}/src/sponsors`,
       },
     },
     'gatsby-plugin-emotion',
