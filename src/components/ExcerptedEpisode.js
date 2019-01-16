@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import { bs, formatEpisodeNumber } from '../utils'
 
@@ -31,8 +31,12 @@ const ExcerptedEpisode = ({ episode }) => {
 
       <div>
         <strong>Guest</strong>: {name}
-        {` - `}
-        <a href={`https://twitter.com/${twitter}`}>@{twitter}</a>
+        {twitter ? (
+          <Fragment>
+            {` - `}
+            <a href={`https://twitter.com/${twitter}`}>@{twitter}</a>
+          </Fragment>
+        ) : null}
       </div>
     </div>
   )
