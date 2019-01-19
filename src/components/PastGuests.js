@@ -9,6 +9,7 @@ const query = graphql`
     allEpisodesJson(sort: { fields: [number], order: DESC }) {
       edges {
         node {
+          slug
           guest {
             imgUrl
             name
@@ -24,7 +25,7 @@ const PastGuests = () => (
   <StaticQuery
     query={query}
     render={data => {
-      const guests = data.allEpisodesJson.edges.map(edge => edge.node.guest)
+      const nodes = data.allEpisodesJson.edges.map(edge => edge.node)
 
       return (
         <Container>
@@ -37,8 +38,11 @@ const PastGuests = () => (
                 flex-wrap: wrap;
               `}
             >
-              {guests.map(guest => (
-                <GuestCard key={guest.name} guest={guest} />
+              {nodes.map(node => (
+                <GuestCard
+                  key={node.guest.name}
+                  guest={{ ...node.guest, slug: node.slug }}
+                />
               ))}
             </div>
           </div>
