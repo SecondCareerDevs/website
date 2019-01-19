@@ -1,7 +1,11 @@
 {
   "id": "INFINITE_RED",
-  "img": {
-    "src": "/sponsors/IR_ad.jpg",
+  "adImage": {
+    "src": "/sponsors/ads/IR_ad.jpg",
+    "alt": "Infinite Red Advertisement"
+  },
+  "logoImage": {
+    "src": "/sponsors/logos/infinite_red_logo.png",
     "alt": "Infinite Red Logo"
   },
   "description": "Infinite Red is a US-based consultancy specializing in React, React Native, mobile applications and web design.",

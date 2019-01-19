@@ -46,9 +46,12 @@ const Sponsor = ({ sponsor }) => (
       This episode is sponsored by <a href={sponsor.link}>{sponsor.name}</a>
     </h3>
     <div css={{ [mq(BREAKPOINTS.alpha)]: { display: 'flex' } }}>
-      {sponsor.img && (
+      {sponsor.adImage && (
         <a css={imgWrapStyles} href={sponsor.link}>
-          <img src={withPrefix(sponsor.img.src)} alt={sponsor.img.alt} />
+          <img
+            src={withPrefix(sponsor.adImage.src)}
+            alt={sponsor.adImage.alt}
+          />
         </a>
       )}
       {sponsor.description && (
@@ -67,7 +70,7 @@ Sponsor.propTypes = {
   sponsor: PropTypes.shape({
     name: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
-    img: PropTypes.shape({
+    adImage: PropTypes.shape({
       src: PropTypes.string,
       alt: PropTypes.string,
     }),

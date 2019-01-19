@@ -110,7 +110,7 @@ export const query = graphql`
             description
             name
             link
-            img {
+            adImage {
               src
               alt
             }
