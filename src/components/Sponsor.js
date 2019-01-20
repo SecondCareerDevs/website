@@ -46,11 +46,11 @@ const Sponsor = ({ sponsor }) => (
       This episode is sponsored by <a href={sponsor.link}>{sponsor.name}</a>
     </h3>
     <div css={{ [mq(BREAKPOINTS.alpha)]: { display: 'flex' } }}>
-      {sponsor.adImage && (
+      {sponsor.episodeImage && (
         <a css={imgWrapStyles} href={sponsor.link}>
           <img
-            src={withPrefix(sponsor.adImage.src)}
-            alt={sponsor.adImage.alt}
+            src={withPrefix(sponsor.episodeImage.src)}
+            alt={sponsor.episodeImage.alt}
           />
         </a>
       )}

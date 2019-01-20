@@ -1,8 +1,8 @@
 {
   "id": "INFINITE_RED",
-  "adImage": {
-    "src": "/sponsors/ads/IR_ad.jpg",
-    "alt": "Infinite Red Advertisement"
+  "episodeImage": {
+    "src": "/sponsors/forEpisodes/infinite_red.jpg",
+    "alt": "Infinite Red"
   },
   "logoImage": {
     "src": "/sponsors/logos/infinite_red_logo.png",
