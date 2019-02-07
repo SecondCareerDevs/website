@@ -1,0 +1,27 @@
+{
+  "number": 14,
+  "slug": "grant-glidewell",
+  "published": false,
+  "title": "Grant Glidewell - Substance Abuse Counselor to Software Engineer",
+  "description": "In this episode of Second Career Devs, I chat with Grant Glidewell, a JavaScript developer for Zesty.io, about his previous career as a substance abuse counselor for teens. Having struggled with substance abuse issues as young person, Grant knew precisely what he wanted to do for work: help others the way he needed help. We learn lessons from Grant about moving forward when the work you love isn't a viable option anymore.",
+  "embed": "",
+  "date": "2010-02-06",
+  "categories": ["substance abuse", "counselor"],
+  "guest": "Grant Glidewell",
+  "links": [
+    {
+      "text": "Dan Abramov's Blog Post - Things I Don't Know as of 2018",
+      "url": "https://overreacted.io/things-i-dont-know-as-of-2018/"
+    },
+    {
+      "text": "Codecademy",
+      "url": "https://codecademy.com/"
+    },
+    {
+      "text": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/"
+    }
+  ],
+  "sponsor": "INFINITE_RED",
+  "transcriptFilename": "/transcripts/014_Grant_Glidewell.pdf"
+}
