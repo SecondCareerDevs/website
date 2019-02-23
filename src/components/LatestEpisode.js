@@ -20,7 +20,7 @@ const LatestEpisode = () => (
               title
               date(formatString: "MMMM DD, YYYY")
               description
-              embed
+              trackID
               guest {
                 name
                 twitter

@@ -4,19 +4,19 @@ import Container from '../components/Container'
 import Content from '../components/Content'
 import GuestCard from '../components/GuestCard'
 import Sponsor from '../components/Sponsor'
-import { bs, formatEpisodeNumber } from '../utils'
+import { bs, createEpisodeEmbed, formatEpisodeNumber } from '../utils'
 
 const Episode = ({ data }) => {
   const {
     categories,
     date,
     description,
-    embed,
     guest,
     links,
     number,
     sponsor,
     title,
+    trackID,
     transcriptFilename,
   } = data.allEpisodesJson.edges[0].node
 
@@ -36,7 +36,7 @@ const Episode = ({ data }) => {
           </div>
           <div
             css={{ marginBottom: bs(2) }}
-            dangerouslySetInnerHTML={{ __html: embed }}
+            dangerouslySetInnerHTML={{ __html: createEpisodeEmbed(trackID) }}
           />
 
           {transcriptFilename && (
@@ -94,7 +94,7 @@ export const query = graphql`
           title
           description
           number
-          embed
+          trackID
           date(formatString: "MMMM DD, YYYY")
           categories
           guest {

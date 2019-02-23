@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
-import { bs, formatEpisodeNumber } from '../utils'
+import { bs, createEpisodeEmbed, formatEpisodeNumber } from '../utils'
 
 const ExcerptedEpisode = ({ episode }) => {
   const {
@@ -8,9 +8,9 @@ const ExcerptedEpisode = ({ episode }) => {
     title,
     date,
     description,
-    embed,
     guest: { name, twitter },
     slug,
+    trackID,
   } = episode
 
   return (
@@ -26,7 +26,7 @@ const ExcerptedEpisode = ({ episode }) => {
       <div css={{ marginBottom: bs(2), maxWidth: '45em' }}>{description}</div>
       <div
         css={{ marginBottom: bs(2) }}
-        dangerouslySetInnerHTML={{ __html: embed }}
+        dangerouslySetInnerHTML={{ __html: createEpisodeEmbed(trackID) }}
       />
 
       <div>

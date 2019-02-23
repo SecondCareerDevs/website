@@ -57,12 +57,12 @@ export const query = graphql`
           title
           date(formatString: "MMMM DD, YYYY")
           description
-          embed
           guest {
             name
             twitter
           }
           slug
+          trackID
         }
       }
     }
