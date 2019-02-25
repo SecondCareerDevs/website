@@ -1,10 +1,10 @@
 {
   "number": 15,
   "slug": "chris-demars",
-  "published": false,
+  "published": true,
   "title": "Chris DeMars - Truck Driver to Web Development",
-  "description": "In this episode of Second Career Devs, I chat with Chris DeMars",
-  "trackID": null,
+  "description": "In this episode of Second Career Devs, I chat with Chris DeMars, a former truck driver turned web developer. Chris shares lessons learned from a life spent in Detroit, and his passion for web accessibility and speaking at conferences.",
+  "trackID": "581114796",
   "date": "2019-02-25",
   "categories": ["truck driving", "transportation"],
   "guest": "Chris DeMars",
