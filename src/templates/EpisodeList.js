@@ -62,6 +62,7 @@ export const query = graphql`
             twitter
           }
           slug
+          ariaLabel
           trackID
         }
       }

@@ -91,6 +91,7 @@ export const query = graphql`
       edges {
         node {
           slug
+          ariaLabel
           title
           description
           number

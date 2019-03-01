@@ -11,6 +11,7 @@ const ExcerptedEpisode = ({ episode }) => {
     guest: { name, twitter },
     slug,
     trackID,
+    ariaLabel,
   } = episode
 
   return (
@@ -26,7 +27,9 @@ const ExcerptedEpisode = ({ episode }) => {
       <div css={{ marginBottom: bs(2), maxWidth: '45em' }}>{description}</div>
       <div
         css={{ marginBottom: bs(2) }}
-        dangerouslySetInnerHTML={{ __html: createEpisodeEmbed(trackID) }}
+        dangerouslySetInnerHTML={{
+          __html: createEpisodeEmbed(trackID, ariaLabel),
+        }}
       />
 
       <div>

@@ -1,6 +1,7 @@
 {
   "number": 10,
   "slug": "michael-chan",
+  "ariaLabel": "michael-chan-episode",
   "published": true,
   "title": "Michael Chan - Home Grown Accountant to Software Engineer",
   "description": "In this episode of Second Career Devs, I chat with Michael Chan, a well known conference speaker and web developer in the React community. He shares his story of growing up working in the family business and how that took him from accounting, to music, to web development. He shares some nuggets of wisdom and a great new conference talk idea along the way.",
