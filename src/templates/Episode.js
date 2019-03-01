@@ -7,6 +7,7 @@ import Sponsor from '../components/Sponsor'
 import { bs, createEpisodeEmbed, formatEpisodeNumber } from '../utils'
 
 const Episode = ({ data }) => {
+  const episode = data.allEpisodesJson.edges[0].node
   const {
     categories,
     date,
@@ -16,9 +17,8 @@ const Episode = ({ data }) => {
     number,
     sponsor,
     title,
-    trackID,
     transcriptFilename,
-  } = data.allEpisodesJson.edges[0].node
+  } = episode
 
   return (
     <Content
@@ -36,7 +36,7 @@ const Episode = ({ data }) => {
           </div>
           <div
             css={{ marginBottom: bs(2) }}
-            dangerouslySetInnerHTML={{ __html: createEpisodeEmbed(trackID) }}
+            dangerouslySetInnerHTML={{ __html: createEpisodeEmbed(episode) }}
           />
 
           {transcriptFilename && (
@@ -91,7 +91,6 @@ export const query = graphql`
       edges {
         node {
           slug
-          ariaLabel
           title
           description
           number
