@@ -18,7 +18,7 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-json": "^2.1.7",
     "gatsby-transformer-sharp": "^2.1.8",
-    "polished": "^2.3.3",
+    "polished": "^3.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^10.0.6",
-    "all-contributors-cli": "^5.8.0",
+    "all-contributors-cli": "^6.1.2",
     "babel-preset-gatsby": "^0.1.8",
     "jest": "^24.1.0",
     "prettier": "^1.15.2"
