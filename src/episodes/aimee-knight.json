@@ -1,0 +1,27 @@
+{
+  "number": 16,
+  "slug": "aimee-knight",
+  "published": false,
+  "title": "Aimee Knight - Figure Skater to Full Stack Development",
+  "description": "In this episode of Second Career Devs, I chat with Aimee Knight,  a former figure skater turned full stack software engineer. A story of hard work, pain and sacrifice, Aimee takes us through her development as a figure skater. She shares some great lessons she learned from being an athlete and how they continue to serve her well today.",
+  "trackID": null,
+  "date": "2019-03-13",
+  "categories": ["athletics", "competition"],
+  "guest": "Aimee Knight",
+  "links": [
+    {
+      "text": "Getting Comfortable Being Uncomfortable",
+      "url": "https://www.youtube.com/watch?v=B22o_yeDE_s"
+    },
+    {
+      "text": "JS Jabber",
+      "url": "https://devchat.tv/js-jabber/"
+    },
+    {
+      "text": "Aimee's Website",
+      "url": "http://www.aimeemarieknight.com/"
+    }
+  ],
+  "sponsor": null,
+  "transcriptFilename": null
+}
