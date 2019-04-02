@@ -1,0 +1,27 @@
+{
+  "number": 17,
+  "slug": "sam-julien",
+  "published": true,
+  "title": "Sam Julien - From Financial Planning to Content Engineering",
+  "description": "In this episode of Second Career Devs, I chat with Sam Julien, a former financial planner turned software engineer. Sam talks about his meandering journey to finance, the personal challenges he overcame to do so, and the great lessons he learned that he still uses today.",
+  "trackID": "599650341",
+  "date": "2019-04-02",
+  "categories": ["finance"],
+  "guest": "Sam Julien",
+  "links": [
+    {
+      "text": "Sam's Website",
+      "url": "http://www.samjulien.com"
+    },
+    {
+      "text": "Upgrading Angular",
+      "url": "https://www.upgradingangularjs.com/"
+    },
+    {
+      "text": "Surprises in My Switch to Remote Work",
+      "url": "https://auth0.com/blog/surprises-in-my-switch-to-remote-work/"
+    }
+  ],
+  "sponsor": null,
+  "transcriptFilename": null
+}
