@@ -54,7 +54,7 @@ const Episode = ({ data }) => {
             <GuestCard key={guest.name} guest={guest} />
           </div>
 
-          {categories ? (
+          {categories && categories.length ? (
             <div css={{ marginBottom: bs(2) }}>
               <h3 css={{ marginBottom: 0 }}>Categories</h3>
               <ul>
@@ -65,7 +65,7 @@ const Episode = ({ data }) => {
             </div>
           ) : null}
 
-          {links ? (
+          {links && links.length ? (
             <div css={{ marginBottom: bs(2) }}>
               <h3 css={{ marginBottom: 0 }}>Links</h3>
               <ul>
