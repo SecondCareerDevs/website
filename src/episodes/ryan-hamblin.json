@@ -1,0 +1,23 @@
+{
+  "number": 19,
+  "slug": "ryan-hamblin",
+  "published": true,
+  "title": "Ryan Hamblin - Career Camp Counselor to Software Engineer",
+  "description": "In this episode of Second Career Devs, I chat with Ryan Hamblin, a former exercise science and outdoor recreation manager who became a software engineer and is now the Web Program Manager at Lambda School. Ryan shares lessons about being responsible, gritty, and persistent in pursuit of changing your career. We also talk about the great work Lambda School is doing to enable people to make the same career change.",
+  "trackID": "621016164",
+  "date": "2019-05-15",
+  "categories": ["exercise science", "outdoors", "camp counseling"],
+  "guest": "Ryan Hamblin",
+  "links": [
+    {
+      "text": "Lambda School",
+      "url": "https://lambdaschool.com"
+    },
+    {
+      "text": "A Visual Representation of the Ryans at Lambda",
+      "url": "https://twitter.com/RyanleeHamblin/status/1079960781863542784"
+    }
+  ],
+  "sponsor": null,
+  "transcriptFilename": null
+}
