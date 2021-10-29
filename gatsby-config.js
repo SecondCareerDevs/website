@@ -65,6 +65,6 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
-    'gatsby-plugin-remove-serviceworker'
+    'gatsby-plugin-remove-serviceworker',
   ],
 }
